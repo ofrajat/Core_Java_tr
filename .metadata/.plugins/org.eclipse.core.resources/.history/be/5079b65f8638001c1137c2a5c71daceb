@@ -1,0 +1,36 @@
+package com.sonata;
+
+public class Student {
+	int stuId;
+	String stuName;
+	double stuMarks;
+	
+//Constructor
+	Student(){};
+	Student(int a, String b, double c){
+		this.stuId= a;
+		this.stuName=b;
+		this.stuMarks=c;
+	}
+	public double totalMarks(double x, double y, double z) {
+		return this.stuMarks+x+y+z;
+	}
+	
+	public void displayInfo() {
+		System.out.println(stuId);
+		System.out.println(stuName);
+		System.out.println(stuMarks);
+	}
+	
+	public static void main(String[] args) {
+		Student e1 = new Student();
+		e1.stuId=111;
+		e1.stuName="Jon";
+		e1.stuMarks=45670;
+		e1.displayInfo();
+		
+		Student e2 = new Student(112,"Mark",32000);
+		e2.displayInfo();
+		System.out.println("The Total Salary Including TA, HRA and DA is: "+e2.totalMarks(200, 250, 800));
+	}
+}

@@ -1,0 +1,19 @@
+package com.sonata;
+
+public class Bank {
+	int accNo;
+	String accName;
+	double accBal;
+	
+	public double deposit(){
+		return accBal= accBal + 10;
+	}
+	public double withdraw(){
+		return accBal= accBal - 10;
+	}
+	public void display() {
+		System.out.println(accNo);
+		System.out.println(accName);
+		System.out.println(accBal);
+	}
+}

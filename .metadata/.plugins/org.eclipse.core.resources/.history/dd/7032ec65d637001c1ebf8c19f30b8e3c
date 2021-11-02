@@ -1,0 +1,42 @@
+package com.sonata.first;
+
+public class Conditions {
+	public static void main(String[] args) {  
+		//For
+	    for(int i=1;i<=5;i++){  
+	        System.out.println(i+'\n');  
+	    }
+	  
+	    //If  
+	    int x = 10;
+	    if (x > 5) {
+	      System.out.println("Condition is true");
+	    }
+	  //Do While  
+	    int j=1;    
+	    do{    
+	        System.out.println(j);    
+	    j++;    
+	    }while(j<=5);  
+	
+	  //Switch 
+	    int n=1;  
+	    switch(n){  
+	    case 1: System.out.println("10");  
+	    break;  
+	    case 2: System.out.println("20");  
+	    break;  
+	    case 3: System.out.println("30");  
+	    break;  
+	    default:System.out.println("Wrong input");  
+	    }  
+	    
+	  //Break
+	    for (int i = 0; i < 5; i++) {
+	    	if (i == 2) {
+	    		break;
+	    	  }
+	    	  System.out.println(i);
+	    }    
+	}
+}

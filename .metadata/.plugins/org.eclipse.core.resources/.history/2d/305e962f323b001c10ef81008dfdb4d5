@@ -1,0 +1,28 @@
+package com.sonata;
+
+public class Car {
+	int speed;
+	double Price;
+	String color;
+	Car(){};
+	Car(int speed,double Price,String color)
+	{
+		this.speed=speed;
+		this.Price=Price;
+		this.color=color;
+	}
+	double SalePrice() {
+		return Price;
+	}
+	public void display() {
+		System.out.println("Speed : "+speed);
+		System.out.println("Base Price : "+Price);
+		System.out.println("Color : "+color);
+
+
+	}
+	public static void main(String args[]) {
+		Car c1 = new Car(200, 5000, "Red");
+		c1.display();
+	}
+}

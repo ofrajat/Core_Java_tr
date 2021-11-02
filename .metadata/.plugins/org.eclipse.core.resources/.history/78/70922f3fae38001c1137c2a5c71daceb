@@ -1,0 +1,11 @@
+package com.sonata.packEg;
+
+public class ShowPackage extends PackAirth{
+	public static void main(String[] args) {
+		ShowPackage s1 = new ShowPackage();
+		s1.add(10,10);
+		s1.sub(20, 10);
+		s1.mul(20, 10);
+		s1.div(20, 10);
+	}
+}

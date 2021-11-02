@@ -1,0 +1,14 @@
+package com.sonata1;
+
+public class Ass_Q6 {
+
+	public static void main(String[] args) {
+		String str= "Hello World";
+		String[] h = str.split("");
+		for(int j=0;j<h.length;j++){
+		System.out.println(h[j]);
+		}
+
+	}
+
+}

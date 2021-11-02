@@ -1,0 +1,12 @@
+package com.sonata;
+
+public class Manager extends Emp{
+	public static void main(String args[]) {
+		SavingAcc a1 = new SavingAcc();
+		a1.accNo=11;
+		a1.accName="Third";
+		a1.accBal=200.67;
+		a1.display();
+	}
+
+}

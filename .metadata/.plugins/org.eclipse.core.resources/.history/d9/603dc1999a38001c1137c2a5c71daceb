@@ -1,0 +1,12 @@
+package com.sonata;
+
+public class Manager extends Emp{
+	public static void main(String args[]) {
+		Manager m1 = new Manager();
+		m1.empId=11;
+		m1.empName="Habibi";
+		m1.empSal=200.67;
+		m1.displayInfo();
+	}
+
+}

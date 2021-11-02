@@ -1,0 +1,14 @@
+package com.sonata.first;
+
+public class Conditions {
+	public static void main(String[] args) {  	    
+	    //Break
+	    for (int i = 0; i < 5; i++) {
+	    	if (i == 2) {
+	    		break;
+	    	  }
+	    	  System.out.println(i);
+	    	}
+	    }  
+	}    
+

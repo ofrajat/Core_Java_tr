@@ -1,0 +1,17 @@
+package com.sonata;
+
+public class Product {
+	int ProId;
+	String ProName;
+	double ProPrice;
+	
+	Product(){};
+	Product(int a, String b, double c){
+		this.ProId= a;
+		this.ProName=b;
+		this.ProPrice=c;
+	}
+	public double totalPrice(double p) {
+		return this.ProPrice+p;
+}
+}

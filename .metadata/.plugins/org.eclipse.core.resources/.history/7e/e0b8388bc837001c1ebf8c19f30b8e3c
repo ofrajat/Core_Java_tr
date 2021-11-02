@@ -1,0 +1,23 @@
+package com.sonata.first;
+
+public class Conditions {
+	public static void main(String[] args) {  
+	  
+	    for(int i=1;i<=10;i++){  
+	        System.out.println(i);  
+	    }
+	    
+	    int x = 20;
+	    int y = 18;
+	    if (x > y) {
+	      System.out.println("Condition is true");
+	    }
+	    
+	    int j=1;    
+	    do{    
+	        System.out.println(j);    
+	    j++;    
+	    }while(j<=10);    
+	}    
+	} 
+}

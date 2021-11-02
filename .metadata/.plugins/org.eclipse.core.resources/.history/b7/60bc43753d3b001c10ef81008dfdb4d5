@@ -1,0 +1,27 @@
+package com.sonata;
+
+public class MyOwnAutoShop {
+	public static void main(String[] args) {
+		Sedan s1 = new Sedan(100,30000,"blue",25);
+		s1.display();
+		System.out.println("Sale Price : "+s1.SalePrice());
+		System.out.println();
+		
+		Ford f1 = new Ford(150,40000,"silver",2010,15);
+		f1.display();
+		System.out.println("Sale Price : "+f1.SalePrice());
+		System.out.println();
+		
+		Ford f2 = new Ford(180,70000,"white",2016,8);
+		f2.display();
+		System.out.println("Sale Price : "+f2.SalePrice());
+		System.out.println();
+		
+		Car c1 = new Car(120,40000,"red");
+		c1.display();
+		System.out.println("Sale Price : "+c1.SalePrice());
+		System.out.println();
+		
+
+	}
+}
